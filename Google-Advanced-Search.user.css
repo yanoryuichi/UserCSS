@@ -1,0 +1,52 @@
+/* ==UserStyle==
+@name           Google Advanced Search
+@namespace      github.com/yanoryuichi/UserCSS
+@version        1.0.0
+@author         Ryuichi Yano
+@updateURL      https://raw.githubusercontent.com/yanoryuichi/UserCSS/master/Google-Advanced-Search.user.css
+==/UserStyle== */
+@-moz-document url-prefix("https://www.google.com/advanced_search") {
+    body {
+        background-color: #444;
+    }
+
+    div.lOTAE label {
+        color: whitesmoke;
+    }
+
+    div.lOTAE span {
+        color: whitesmoke;
+    }
+
+    div.lOTAE {
+        color: whitesmoke;
+    }
+
+    div.lOTAE a {
+        color: gold;
+    }
+
+    div div a {
+        color: gold;
+    }
+
+    div.fbar.b2hzT {
+        background-color: #666;
+    }
+
+    div.fbar {
+        background-color: #666;
+    }
+
+    span.Q8LRLc {
+        color: whitesmoke;
+    }
+
+    div.gb_Xf.gb_Dg {
+        background-color: #666;
+    }
+
+    span.BFlQMb {
+        color: whitesmoke;
+    }
+}
