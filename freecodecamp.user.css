@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name           freecodecamp.org
+@namespace      github.com/yanoryuichi/UserCSS
+@version        1.0.0
+@author         Ryuichi Yano
+@updateURL      https://raw.githubusercontent.com/yanoryuichi/UserCSS/master/freecodecamp.org.user.css
+==/UserStyle== */
+@-moz-document url-prefix("https://www.freecodecamp.org/news/") {
+.post-full-content,
+.page-template .site-main,
+.post-template .site-main,
+body {
+    background-color: #bbb;
+}
+
+.post-card {
+    background-color: #ccc;
+}
+}
