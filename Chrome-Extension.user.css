@@ -1,0 +1,27 @@
+/* ==UserStyle==
+@name           Chrome Extension
+@namespace      github.com/yanoryuichi/UserCSS
+@version        1.0.0
+@author         Ryuichi Yano
+@updateURL      https://raw.githubusercontent.com/yanoryuichi/UserCSS/master/Chrome-Extension.user.css
+==/UserStyle== */
+@-moz-document regexp("chrome-extension://.*") {
+body {
+    background-color: #ddd;
+}
+
+
+/* Stylus: CodeMirror */
+#stylus-edit {
+    background-color: #bbb;
+}
+.CodeMirror-scroll {
+    color: black;
+    background-color: #e0e0e8;
+}
+
+.CodeMirror {
+    font-family: Consolas;
+}
+/* /Stylus: CodeMirror */
+}
