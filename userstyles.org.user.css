@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           userstyles.org
+@namespace      github.com/yanoryuichi/UserCSS
+@version        1.0.0
+@author         Ryuichi Yano
+@updateURL      https://raw.githubusercontent.com/yanoryuichi/UserCSS/master/userstyles.org.user.css
+==/UserStyle== */
+@-moz-document domain("userstyles.org") {
+#footer,
+.navigation,
+#view-responsive,
+#root > div.navigation,
+#view-responsive > div {
+    background-color: #bbb;
+}
+
+#notes_textarea,
+#view-responsive > div > div.us-stylecards__container.us-stylecards__container--narrow > div {
+    background-color: #ddd;
+}
+
+#discussion_date,
+.us-stylecard--short .us-downloads__count,
+.us-stylecard--short .us-discussions__count,
+.us-stylecard--short .us-username a,
+.us-stylecard--short .us-updated {
+    color: #111;
+}
+}
