@@ -1,0 +1,62 @@
+﻿/* ==UserStyle==
+@name           developer.mozilla.org
+@namespace      github.com/yanoryuichi/UserCSS
+@version        1.0.0
+@author         Ryuichi Yano
+@updateURL      https://raw.githubusercontent.com/yanoryuichi/UserCSS/master/developer.mozilla.org.user.css
+==/UserStyle== */
+@-moz-document domain("developer.mozilla.org") {
+    #react-container main,
+    #main-header,
+    body {
+        background-color: silver;
+    }
+    .titlebar-container {
+        background-color: darkgray;
+        border-color: transparent;
+    }
+
+    .text-content pre,
+    .text-content pre[class*=language-],
+    pre.syntaxbox,
+    pre.twopartsyntaxbox,
+    li a code {
+        background-color: gainsboro;
+    }
+
+    div.search-pane.search-results-explanation {
+        background-color: #e0e0e5;
+    }
+
+    div.search-pane.search-results-container {
+        background-color: #e0e0e5;
+    }
+
+    .full-width-row-container {
+        border-bottom-color: transparent;
+    }
+    .output,
+    .CodeMirror {
+        background-color: gainsboro;
+    }
+
+    .interactive {
+        background-color: lightslategray;
+        border-color: transparent;
+    }
+
+    .CodeMirror-gutters {
+        background-color: silver;
+    }
+
+
+    .document-toc {
+        background-color: gainsboro;
+    }
+
+    .text-content table.standard-table:not(.learn-box) td,
+    .text-content table.standard-table:not(.learn-box) td.header,
+    .text-content table.standard-table:not(.learn-box) th {
+        border-color: darkgray;
+    }
+}
