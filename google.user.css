@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           google.com
+@namespace      github.com/yanoryuichi/UserCSS
+@version        1.0.0
+@author         Ryuichi Yano
+@updateURL      https://raw.githubusercontent.com/yanoryuichi/UserCSS/master/google.com.user.css
+
+==/UserStyle== */
+@-moz-document domain("google.com") {
+    .ub-button {
+        color: #1af;
+    }
+    .s .st em {
+        background-color: maroon;
+    }
+}
