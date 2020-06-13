@@ -59,4 +59,7 @@
     .text-content table.standard-table:not(.learn-box) th {
         border-color: darkgray;
     }
+    .button, button, input[type=button], input[type=submit] {
+        background-color: transparent;
+    }
 }
