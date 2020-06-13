@@ -26,4 +26,7 @@
 .us-stylecard--short .us-updated {
     color: #111;
 }
+.button, button, input[type=button], input[type=submit] {
+    background-color: transparent;
+}
 }
