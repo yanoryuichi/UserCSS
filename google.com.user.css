@@ -14,4 +14,7 @@
     .ub-button {
         color: #1af;
     }
+    span.ub-link-button.ub-block-button {
+        font-size: 60%;
+    }
 }
