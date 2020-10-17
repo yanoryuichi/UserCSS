@@ -1,0 +1,78 @@
+﻿/* ==UserStyle==
+@name           dev.classmethod.jp
+@namespace      github.com/yanoryuichi/UserCSS
+@version        1.0.0
+@author         Ryuichi Yano
+@updateURL      https://raw.githubusercontent.com/yanoryuichi/UserCSS/master/dev.classmethod.jp.user.css
+==/UserStyle== */
+@-moz-document domain("dev.classmethod.jp") {
+    ul li code {
+        background-color: #444;
+        color: whitesmoke;
+    }
+
+    .container,
+    .main {
+        background-color: #444;
+    }
+
+    .article-header .meta .reference-categories a:hover,
+    .article-header .meta .series a:hover,
+    .info .author-link,
+    .article-header .title,
+    .content {
+        color: white;
+    }
+
+    .info .date {
+        color: #ccc;
+    }
+
+    .content li > code,
+    .content p > code {
+        background-color: #777;
+    }
+
+    .content a {
+        color: #0bf
+    }
+
+    .side-left .toc ul a:hover {
+        color: white;
+    }
+
+    .side-left .toc ul li.focus,
+    .side-left .toc ul li:hover {
+        background-color: #777;
+    }
+
+    .side-left .toc p {
+        color: #ccc;
+    }
+
+    .side-left .toc ul a {
+        color: #ccc;
+    }
+
+    .embed-wrapper {
+        background-color: #777;
+    }
+
+    div span blockquote {
+        background-color: #666;
+    }
+
+    .content table thead {
+        background-color: #555;
+    }
+    .content table tbody tr {
+        background-color: #666;
+    }
+    .content table tbody tr:nth-child(2n) {
+        background-color: #777;
+    }
+    .content .file-name code {
+        color: white;
+    }
+
+}
