@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           qiita.com
 @namespace      github.com/yanoryuichi/UserCSS
-@version        1.0.1
+@version        1.0.2
 @updateURL      https://raw.githubusercontent.com/yanoryuichi/UserCSS/master/qiita.com.user.css
 @author         Me
 ==/UserStyle== */
@@ -19,6 +19,7 @@
         background-color: #777;
     }
 
+    .p-items_main time,
     .ai-Organization_website,
     .it-Reference_time,
     .apm-Content_list .description,
@@ -63,6 +64,7 @@
     .it-MdContent blockquote,
     .tocTree_contents a,
     .it-MdContent,
+    .p-items_main h1,
     h1,
     h2,
     h3,
