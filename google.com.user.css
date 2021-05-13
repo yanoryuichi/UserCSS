@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           google.com
 @namespace      github.com/yanoryuichi/UserCSS
-@version        1.0.3
+@version        1.0.4
 @author         Ryuichi Yano
 @updateURL      https://raw.githubusercontent.com/yanoryuichi/UserCSS/master/google.com.user.css
 
@@ -10,13 +10,16 @@
     span.st > em {
         background-color: #555;
     }
-    span.ub-link-button.ub-block-button {
-        font-size: 60%;
+    #search #rso span.ub-button {
+        font-size: 0;
+        color: #aaa
+        
     }
-    span.st {
-        color: white;
+    #search #rso span.ub-button:after {
+        font-size:x-small;
+        content: "❌BLOCK";
+        
     }
-
     .aCOpRe span em {
         color: orange !important;
     }
