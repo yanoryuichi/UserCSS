@@ -1,113 +1,50 @@
 /* ==UserStyle==
 @name           qiita.com
 @namespace      github.com/yanoryuichi/UserCSS
-@version        1.0.2
+@version        1.0.3
 @updateURL      https://raw.githubusercontent.com/yanoryuichi/UserCSS/master/qiita.com.user.css
 @author         Me
 ==/UserStyle== */
 @-moz-document domain("qiita.com") {
-    .co-AnonymousForm,
-    .tocTree_contents .active > a,
-    .tocTree_contents a:hover {
-        background-color: #666;
-    }
+  .p-items_wrapper a {
+    color: white;
+  }
+  .p-items_wrapper span {
+    color: whitesmoke;
+  }
+  #comments p {
+    color: white;
+  }
+  .apm-Content_list .description,
+  time {
+    color: snow;
+  }
+  .allWrapper,
+  .p-items_wrapper,
+  .p-items_container {
+    background-color: #777;
+  }
 
-    .footer,
-    #main,
-    .p-items_wrapper,
-    div.p-items_container {
-        background-color: #777;
-    }
-
-    .p-items_main time,
-    .ai-Organization_website,
-    .it-Reference_time,
-    .apm-Content_list .description,
-    .ai-Organization_description,
-    .ai-User_website,
-    .it-AuthorInfo_description,
-    .it-Reference,
-    .it-Reference,
-    .references_datetime,
-    .references_reference,
-    .references_reference-old,
-    .it-Header,
-    .it-Header_time {
-        color: gainsboro;
-    }
-
-    .it-MdContent a {
-        color: limegreen;
-    }
-
-    .it-MdContent a:visited {
-        color: magenta;
-    }
-
-    .it-MdContent table,
-    .it-MdContent td {
-        border-color: transparent;
-    }
-
-    .it-MdContent th {
-        background-color: #333;
-        border-color: transparent;
-        color: white;
-    }
-
-    .it-MdContent tr:nth-child(odd) {
-        background-color: #555;
-        color: white;
-    }
-
-    .it-Toc a,
-    .it-MdContent blockquote,
-    .tocTree_contents a,
-    .it-MdContent,
-    .p-items_main h1,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    .h1,
-    .h2,
-    .h3,
-    .h4,
-    .h5,
-    .h6,
-    body {
-        color: white;
-    }
-
-    .it-Toc a:hover,
-    .it-MdContent code,
-    .comment_content,
-    .it-MdContent tr:nth-child(even) {
-        background-color: #444;
-        color: white;
-    }
-    
-    .p-items_main > div,
-
-    .p-items_wrapper .p-items_article {
-        background-color: #666;
-        color: whitesmoke;
-    }
-
-    .p-items_wrapper .p-items_footnote .references a {
-        color: gold;
-    }
-
-    div.ai-User_description {
-        color: white;
-    }
-
-    div.co-Item_text p {
-        color: white;
-    }
-    div.userActivityChart_svg.js-userActivityChartSVG.c3 {
-        color: black;
-    }
+  .p-items_main > div {
+    background-color: #666;
+  }
+  .it-Toc a:hover,
+  .it-Toc a.focus {
+    background-color: #888;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  body {
+    color: white;
+  }
+  .it-MdContent {
+    color: white;
+  }
+  #comments > div {
+    background-color: #888;
+  }
 }
