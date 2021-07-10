@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           qiita.com
 @namespace      github.com/yanoryuichi/UserCSS
-@version        1.0.3
+@version        1.0.4
 @updateURL      https://raw.githubusercontent.com/yanoryuichi/UserCSS/master/qiita.com.user.css
 @author         Me
 ==/UserStyle== */
@@ -24,7 +24,6 @@
   .p-items_container {
     background-color: #777;
   }
-
   .p-items_main > div {
     background-color: #666;
   }
@@ -46,5 +45,42 @@
   }
   #comments > div {
     background-color: #888;
+  }
+  div.p-items_wrapper > div > div.p-items_main > div:nth-child(1) > div > h1 {
+    color: white !important;
+  }
+  div.p-items_wrapper
+    > div
+    > div.p-items_main
+    > div:nth-child(1)
+    > div
+    > div
+    > div
+    > div
+    > div
+    > div
+    > span
+    > time {
+    color: white;
+  }
+  .it-Toc a.focus {
+    color: white;
+  }
+  #logly-lift-4279493 .logly-lift-ad-title {
+    color: white;
+  }
+  div.p-items_wrapper
+    > div
+    > div.p-items_main
+    > div:nth-child(5)
+    > div
+    > div
+    > time,
+  div.p-items_wrapper > div > div.p-items_main > div:nth-child(5) > div > div,
+  #logly-lift-4279493 .logly-lift-ad-adv,
+  #logly-lift-4279493 .logly-lift-ad-author,
+  #logly-lift-toaster .logly-lift-credit2 a,
+  #logly-lift-4279493 .logly-lift-credit2 a {
+    color: whitesmoke;
   }
 }
