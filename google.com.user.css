@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           google.com
 @namespace      github.com/yanoryuichi/UserCSS
-@version        1.0.4
+@version        1.0.5
 @author         Ryuichi Yano
 @updateURL      https://raw.githubusercontent.com/yanoryuichi/UserCSS/master/google.com.user.css
 
@@ -20,13 +20,16 @@
         content: "❌BLOCK";
         
     }
-    .aCOpRe span em {
-        color: orange !important;
-    }
-
     span.ub-link-button.ub-block-button {
         color: #ccc !important;
         font-size: xx-small;
         letter-spacing: -1.5px;
+    }
+    #main .g span {
+    color: whitesmoke;
+    }
+
+    #main .g span em {
+    color:orange !important;
     }
 }
