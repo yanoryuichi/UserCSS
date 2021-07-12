@@ -1,0 +1,60 @@
+/* ==UserStyle==
+@name           alc.co.jp
+@namespace      github.com/yanoryuichi/UserCSS
+@version        1.0.0
+@updateURL      https://raw.githubusercontent.com/yanoryuichi/UserCSS/master/alc.co.jp.user.css
+@author         Me
+==/UserStyle== */
+@-moz-document domain("eowf.alc.co.jp") {
+    body {
+        background-color: #555;
+        color: white;
+    }
+
+    #title {
+        background-color: #444;
+        border-top-color: transparent;
+    }
+
+    #leftbar .text {
+        color: silver;
+    }
+
+    #leftbar li {
+        border-bottom-color: silver;
+    }
+
+    a {
+        color: #1af;
+    }
+
+    #resultlist .word {
+        color: hotpink;
+    }
+
+    .wordclass {
+        color: gold;
+    }
+
+    #head_navi {
+        background-image: none;
+    }
+
+    #footer {
+        background-color: #444;
+    }
+
+    .list > .word > a > img,
+    .list > .word > .mag {
+        display: none;
+    }
+
+    #result_search > div > div.searchbutton.cl_f,
+    #result_search > div > div.searchbutton.kw_f,
+    #fm1 > div.vague_box.vague_f,
+    #common_wrap_limit,
+    .cartoon,
+    #pr {
+        display: none;
+    }
+}
