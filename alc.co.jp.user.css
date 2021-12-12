@@ -1,69 +1,70 @@
 /* ==UserStyle==
 @name           alc.co.jp
 @namespace      github.com/yanoryuichi/UserCSS
-@version        1.0.1
+@version        1.0.2
 @updateURL      https://raw.githubusercontent.com/yanoryuichi/UserCSS/master/alc.co.jp.user.css
 @author         Me
 ==/UserStyle== */
 @-moz-document domain("eowf.alc.co.jp") {
-  body {
-    background-color: #555;
-    color: white;
-  }
+    body {
+        background-color: #555;
+        color: white;
+    }
 
-  #title {
-    background-color: #444;
-    border-top-color: transparent;
-  }
+    #title {
+        background-color: #444;
+        border-top-color: transparent;
+    }
 
-  #leftbar .text {
-    color: silver;
-  }
+    #leftbar .text {
+        color: silver;
+    }
 
-  #leftbar li {
-    border-bottom-color: silver;
-  }
+    #leftbar li {
+        border-bottom-color: silver;
+    }
 
-  a {
-    color: #1af;
-  }
+    a {
+        color: #1af;
+    }
 
-  #resultlist .word {
-    color: hotpink;
-  }
+    #resultlist .word {
+        color: hotpink;
+    }
 
-  .wordclass {
-    color: gold;
-  }
+    .wordclass {
+        color: gold;
+    }
 
-  #head_navi {
-    background-image: none;
-  }
+    #head_navi {
+        background-image: none;
+    }
 
-  #footer {
-    background-color: #444;
-  }
+    #footer {
+        background-color: #444;
+    }
 
-  .bluetext {
-    color: inherit;
-  }
+    .bluetext {
+        color: inherit;
+    }
 
-  #leftbar .text a,
-  #result a,
-  .paging a {
-    color: #1af;
-  }
-  .list > .word > a > img,
-  .list > .word > .mag {
-    display: none;
-  }
+    .js_je #resultlist .word,
+    #leftbar .text a,
+    #result a,
+    .paging a {
+        color: #1af;
+    }
+    .list > .word > a > img,
+    .list > .word > .mag {
+        display: none;
+    }
 
-  #result_search > div > div.searchbutton.cl_f,
-  #result_search > div > div.searchbutton.kw_f,
-  #fm1 > div.vague_box.vague_f,
-  #common_wrap_limit,
-  .cartoon,
-  #pr {
-    display: none;
-  }
+    #result_search > div > div.searchbutton.cl_f,
+    #result_search > div > div.searchbutton.kw_f,
+    #fm1 > div.vague_box.vague_f,
+    #common_wrap_limit,
+    .cartoon,
+    #pr {
+        display: none;
+    }
 }
