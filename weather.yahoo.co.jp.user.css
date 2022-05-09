@@ -1,0 +1,32 @@
+/* ==UserStyle==
+@name           weather.yahoo.co.jp
+@namespace      github.com/yanoryuichi/UserCSS
+@version        1.0.0
+@updateURL      https://raw.githubusercontent.com/yanoryuichi/UserCSS/master/weather.yahoo.co.jp.user.css
+@author         Me
+==/UserStyle== */
+@-moz-document domain("weather.yahoo.co.jp") {
+body {
+    background-color: #bbb;
+}
+
+tr td div {
+    background-color: #ddd;
+}
+
+.yjw_table {
+    background-color: #ddd;
+}
+
+.indexList {
+    background-color: #ddd;
+}
+
+#msthdtp {
+    background-color: #bbb;
+}
+
+div.warnAdv.target_modules {
+    background-color: #ddd;
+}
+}
